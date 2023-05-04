@@ -1,0 +1,60 @@
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 18px;
+  padding: 16px;
+}
+
+.mic-button {
+  font-size: 2rem; /* アイコンサイズを大きくします */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.mic-button.listening { /* 録音中のボタンのスタイル */
+  background-color: #f44336;
+}
+
+.play-button {
+  font-size: 2rem; /* アイコンサイズを大きくします */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4182e4;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+.translated-text {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+button {
+  font-size: 24px;
+  padding: 8px 16px;
+  margin: 8px;
+}
+
+select {
+  font-size: 18px;
+  padding: 4px 8px;
+}
